@@ -1,0 +1,558 @@
+/* rem and em do NOT depend on html font-size in media queries! Instead, 1rem = 1em = 16px */
+
+/*****************************************/
+/* BELOW 3840px (Desktop 4k 1x scale) */
+/*****************************************/
+@media (max-width: 240em) {
+  html {
+    font-size: 88%;
+  }
+
+  .header__title {
+    padding: 40.8rem 3.2rem 3.6rem 3.2rem;
+  }
+}
+/*****************************************/
+/* BELOW 2560px (Desktop iMac Retina 2016 27") */
+/*****************************************/
+@media (max-width: 160em) {
+  html {
+    font-size: 80%;
+  }
+
+  .header__title {
+    padding: 30.8rem 3.2rem 3.6rem 3.2rem;
+  }
+}
+
+/*****************************************/
+/* BELOW 2048px (Desktop iMac Retina 4k 21.5") */
+/*****************************************/
+@media (max-width: 128em) {
+  html {
+    font-size: 72%;
+  }
+
+  .header__title {
+    padding: 26.8rem 3.2rem 3.6rem 3.2rem;
+  }
+}
+
+/*****************************************/
+/* BELOW 1920px (Desktop) */
+/*****************************************/
+@media (max-width: 120em) {
+  html {
+    font-size: 70%;
+  }
+
+  .header__title {
+    padding: 26.8rem 3.2rem 3.6rem 3.2rem;
+  }
+}
+
+/*****************************************/
+/* BELOW 1440px (macbook pro) */
+/*****************************************/
+@media (max-width: 90em) {
+  html {
+    font-size: 65%;
+  }
+
+  .header__title {
+    padding: 18.8rem 3.2rem 3.6rem 3.2rem;
+  }
+}
+
+/*****************************************/
+/* BELOW 1366px (Laptops) */
+/*****************************************/
+@media (max-width: 85.375em) {
+  html {
+    font-size: 64%;
+  }
+
+  .header__title {
+    padding: 12.8rem 3.2rem 3.6rem 3.2rem;
+  }
+}
+
+/*****************************************/
+/* BELOW 1320px (Laptops) */
+/*****************************************/
+@media (max-width: 82.5em) {
+  html {
+    font-size: 63%;
+  }
+
+  .header__title {
+    padding: 12.8rem 3.2rem 3.6rem 3.2rem;
+  }
+}
+/*****************************************/
+/* BELOW 1280px (Small laptop) */
+/*****************************************/
+@media (max-width: 80em) {
+  html {
+    font-size: 60%;
+  }
+
+  .header__title {
+    padding: 12.8rem 3.2rem 3.6rem 3.2rem;
+  }
+}
+
+/*****************************************/
+/* BELOW 1200px (landscape tablets) */
+/*****************************************/
+@media (max-width: 75em) {
+  html {
+    /* 9px / 16px */
+    font-size: 56.25%;
+  }
+
+  .header__title {
+    padding: 14.8rem 3.2rem 3.6rem 3.2rem;
+  }
+
+  .client-img-box {
+    width: 41rem;
+  }
+
+  .talent-img-box {
+    width: 40rem;
+    transform: translateX(-15%);
+  }
+
+  .for-talent-text-box {
+    padding: 4.8rem 6.4rem 6.4rem 0.4rem;
+  }
+}
+
+/*****************************************/
+/* BELOW 944px (Tablets) */
+/*****************************************/
+@media (max-width: 59em) {
+  html {
+    /* 8px /16px = 0.5 =50% */
+    font-size: 50%;
+  }
+
+  .hideOnMobile {
+    display: none;
+  }
+
+  /* .side-bar {
+    width: 100%;
+  } */
+
+  .menu-btn {
+    display: block;
+  }
+
+  .heading-primary {
+    font-size: 7.8rem;
+  }
+
+  .heading-secondary {
+    font-size: 5.4rem;
+  }
+
+  .more-btn,
+  .more-btn:link,
+  .more-btn:visited {
+    font-size: 3.2rem;
+  }
+
+  .client-img-box {
+    width: 41rem;
+  }
+
+  .client-btn label {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  .freelancer-btn label {
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 0.8rem;
+  }
+
+  .join--btn,
+  .join--btn:link,
+  .join--btn:visited {
+    font-size: 3rem;
+    padding: 2.8rem 3rem;
+  }
+
+  .login {
+    font-size: 2.8rem;
+    font-weight: 500;
+  }
+}
+
+/*****************************************/
+/* BELOW 704px (Smaller tablets) */
+/*****************************************/
+@media (max-width: 44em) {
+  html {
+    /* 8px /16px = 0.5 =50% */
+    font-size: 40%;
+  }
+
+  .hideOnMobile {
+    display: none;
+  }
+
+  .menu-btn {
+    display: block;
+  }
+
+  .header__title {
+    padding: 20.8rem 3.2rem 3.6rem 3.2rem;
+  }
+
+  .more-btn,
+  .more-btn:link,
+  .more-btn:visited {
+    font-size: 3.2rem;
+  }
+
+  .heading-trusted-by {
+    font-size: 1.8rem;
+  }
+
+  .for-client-text {
+    font-size: 2.8rem;
+  }
+
+  .for-talent-text {
+    font-size: 2.8rem;
+  }
+  .client-img-box {
+    display: none;
+  }
+
+  .talent-img-box {
+    display: none;
+  }
+
+  .grid--client {
+    grid-template-columns: 1fr;
+  }
+
+  .grid--talent {
+    grid-template-columns: 1fr;
+  }
+
+  .for-talent-text-box {
+    padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+  }
+
+  .for-client-text {
+    font-size: 2.8rem;
+  }
+}
+
+/*****************************************/
+/* BELOW 544px (Phones) */
+/*****************************************/
+@media (max-width: 34em) {
+  html {
+    /* 8px /16px = 0.5 =50% */
+    font-size: 30%;
+  }
+
+  .nav__logo {
+    height: 5rem;
+  }
+
+  .hideOnMobile {
+    display: none;
+  }
+
+  .side-bar {
+    width: 100%;
+  }
+
+  .side__links {
+    padding: 5.2rem;
+  }
+
+  .side__links {
+    list-style: none;
+    margin: 3.4rem 0 0 3.4rem;
+  }
+  .side__link:link,
+  .side__link:visited {
+    font-size: 5rem;
+  }
+
+  .side__item {
+    margin-bottom: 10rem;
+  }
+
+  .menu-btn {
+    display: block;
+  }
+
+  .heading-secondary {
+    font-size: 5.4rem;
+  }
+
+  .header__title {
+    padding: 42.8rem 3.2rem 3.6rem 3.2rem;
+  }
+
+  .client-img-box {
+    display: none;
+  }
+
+  .talent-img-box {
+    display: none;
+  }
+
+  .grid--client {
+    grid-template-columns: 1fr;
+  }
+
+  .grid--talent {
+    grid-template-columns: 1fr;
+  }
+
+  .for-talent-text-box {
+    padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+  }
+
+  .for-client-text {
+    font-size: 2.8rem;
+  }
+
+  .for-talent-text {
+    font-size: 3rem;
+  }
+
+  .client-btn label {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  .freelancer-btn label {
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 0.8rem;
+  }
+
+  .join--btn,
+  .join--btn:link,
+  .join--btn:visited {
+    font-size: 3rem;
+    padding: 2.8rem 3rem;
+  }
+
+  .login {
+    font-size: 3rem;
+    font-weight: 600;
+  }
+}
+
+/*****************************************/
+/* BELOW 460px Desgin breakpoint */
+/*****************************************/
+@media (max-width: 28.75em) {
+  html {
+    /* 8px /16px = 0.5 =50% */
+    font-size: 28%;
+  }
+
+  .nav__logo {
+    height: 6rem;
+  }
+
+  .hideOnMobile {
+    display: none;
+  }
+
+  .side-bar {
+    width: 100%;
+  }
+
+  .header__title {
+    padding: 32.8rem 3.2rem 3.6rem 3.2rem;
+  }
+
+  .menu-btn {
+    display: block;
+  }
+
+  /* JOIN AS SECTION */
+}
+
+/*****************************************/
+/* BELOW 320px (small Phones) */
+/*****************************************/
+@media (max-width: 27em) {
+  html {
+    font-size: 25%;
+  }
+
+  .nav__logo {
+    height: 6rem;
+  }
+
+  .header__title {
+    padding: 52.8rem 3.2rem 3.6rem 3.2rem;
+  }
+
+  .hideOnMobile {
+    display: none;
+  }
+
+  .side-bar {
+    width: 100%;
+  }
+
+  .menu-btn {
+    display: block;
+  }
+
+  /* JOIN AS SECTION */
+  .radio-btn {
+    gap: 0.8rem;
+  }
+
+  .client-btn label {
+    font-size: 1.4rem;
+    font-weight: 700;
+  }
+
+  .freelancer-btn label {
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding: 0.8rem;
+  }
+
+  .client-btn {
+    padding: 16rem 0.4rem;
+  }
+
+  .freelancer-btn {
+    padding: 16rem 0.4rem;
+  }
+
+  .join--btn,
+  .join--btn:link,
+  .join--btn:visited {
+    font-size: 2rem;
+    padding: 2rem 6rem;
+  }
+
+  .login {
+    font-size: 3rem;
+    font-weight: 400;
+  }
+
+  .quote {
+    font-size: 2.8rem;
+    font-weight: 400;
+  }
+}
+
+/*****************************************/
+/* BELOW 377px (small Phones) */
+/*****************************************/
+@media (max-width: 23.563em) {
+  html {
+    font-size: 23%;
+  }
+
+  .hideOnMobile {
+    display: none;
+  }
+  .menu-btn {
+    display: block;
+  }
+
+  .side-bar {
+    width: 100%;
+  }
+}
+
+/*****************************************/
+/* 347px (very small devices Phones) */
+/*****************************************/
+@media (max-width: 21.688em) {
+  html {
+    font-size: 20%;
+  }
+
+  .hideOnMobile {
+    display: none;
+  }
+  .menu-btn {
+    display: block;
+  }
+
+  .side-bar {
+    width: 100%;
+  }
+
+  .join--btn,
+  .join--btn:link,
+  .join--btn:visited {
+    font-size: 1.8rem;
+  }
+}
+/************************************/
+/* Fixing Safari flexbox gap */
+/***********************************/
+
+.no-flexbox-gap .main-nav-list li:not(:last-child) {
+  margin-right: 4.8rem;
+}
+
+.no-flexbox-gap .list-item:not(:last-child) {
+  margin-bottom: 1.6rem;
+}
+
+.no-flexbox-gap .list-icon:not(:last-child) {
+  margin-right: 1.6rem;
+}
+
+.no-flexbox-gap .delivered-faces {
+  margin-right: 1.6rem;
+}
+
+.no-flexbox-gap .meal-attribute:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+.no-flexbox-gap .meal-icon {
+  margin-right: 1.6rem;
+}
+
+.no-flexbox-gap .footer-row div:not(:last-child) {
+  margin-right: 6.4rem;
+}
+
+.no-flexbox-gap .social-links li:not(:last-child) {
+  margin-right: 2.4rem;
+}
+
+.no-flexbox-gap .footer-nav li:not(:last-child) {
+  margin-bottom: 2.4rem;
+}
+
+@media (max-width: 75em) {
+  .no-flexbox-gap .main-nav-list li:not(:last-child) {
+    margin-right: 3.2rem;
+  }
+}
+
+@media (max-width: 59em) {
+  .no-flexbox-gap .main-nav-list li:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 4.8rem;
+  }
+}
